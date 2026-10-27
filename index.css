@@ -1,0 +1,234 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 700;
+    background:linear-gradient(#7ebbf0, #fcbfdc);
+    color: white;
+}
+
+h1, h2, h4 {
+    font-family: "Happy Monkey", system-ui;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 700;
+}
+
+.insc {
+    background: pink;
+    padding: 1.5%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#eldar-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid pink;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-1 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-2 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-3 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #D33131;
+    border-radius: 10px;
+    background-image: url("images/gift.jpeg");
+    background-repeat: no-repeat;       
+    background-size: cover;             
+    
+
+}
+
+#gift-3:hover {
+    background-image: url("images/images.jfif");
+
+}
+
+.space {
+    display: flex;
+    flex-direction: column; /* Располагает блоки друг под другом */
+    align-items: center;    /* Центрирует блоки по горизонтали, если нужно */
+    gap: 70px;              /* Четко задает расстояние между .container и .gift */
+
+}
+
+.gift-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-11 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-22 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-33 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #D33131;
+    border-radius: 10px;
+    background-image: url("images/gift.jpeg");
+    background-repeat: no-repeat;       
+    background-size: cover;
+
+}
+    
+#gift-33:hover {
+    background-image: url("images/images1.jfif");
+
+}
+
+.gift-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-111 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-222 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-333 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #D33131;
+    border-radius: 10px;
+    background-image: url("images/gift.jpeg");
+    background-repeat: no-repeat;       
+    background-size: cover;
+
+}
+    
+#gift-333:hover {
+    background-image: url("images/images3.jfif");
+
+}
+
+.gift-111 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-1111 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-2222 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-3333 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #D33131;
+    border-radius: 10px;
+    background-image: url("images/gift.jpeg");
+    background-repeat: no-repeat;       
+    background-size: cover;
+
+}
+    
+#gift-3333:hover {
+    background-image: url("images/images2.jfif");
+
+}  
+
+.gift-1111 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-11111 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-22222 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#gift-33333 {
+    margin-bottom: 200px;
+    margin-top: 20px;
+    width: 500px;
+    height: 250px;
+    border: 10px solid #D33131;
+    border-radius: 10px;
+    background-image: url("images/gift.jpeg");
+    background-repeat: no-repeat;       
+    background-size: cover;
+
+}
+    
+#gift-33333:hover {
+    background-image: url("images/baku-baku-weak-hero.gif");
+
+}
+
+#footer {
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    
+}
